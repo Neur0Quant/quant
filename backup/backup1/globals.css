@@ -1,0 +1,36 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:600|Poppins:600");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Proxima Nova-Semibold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5b92aac3e833790009188215/.173.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Proxima Nova-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/60bdaccb1fa40b327a333e32/fonts/mark-simonson-proxima-nova-a.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Proxima Nova-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/672c539e0a00c423d1727cd6/fonts/mark-simonson-proxima-nova-bold.otf")
+    format("opentype");
+}
