@@ -543,12 +543,13 @@ html, body {
     text-shadow: 0px 4px 4px #00000040;
     font-family: "Proxima Nova-Bold", Helvetica;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    line-height: 34.5px;
+    line-height: 44.5px;
     position: absolute;
     color: #ff0000;
     letter-spacing: 0;
+    text-decoration: underline;
   }
   
   .screen .text-wrapper-12 {
