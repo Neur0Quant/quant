@@ -799,3 +799,43 @@ html, body {
     left: 0;
     object-fit: cover;
   }
+
+.like-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.like-button i {
+  transition: all 0.3s ease;
+}
+
+.like-button.liked i {
+  color: #ff2d55;
+  animation: likeAnimation 0.8s ease-in-out;
+}
+
+@keyframes likeAnimation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.like-button:hover i {
+  transform: scale(1.1);
+}
